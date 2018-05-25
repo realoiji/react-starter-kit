@@ -1,0 +1,41 @@
+.traffic-container {
+  position: absolute;
+}
+
+.color-green {
+  fill: #33a000;
+}
+.color-orange {
+  fill: #ffa000;
+}
+.color-red {
+  fill: #ff3b3c;
+}
+.color-dark-red {
+  fill: #881e1e;
+}
+.color-gray {
+  fill: #525252;
+}
+.map-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.route-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+.route-text {
+  position: absolute;
+  z-index: 3;
+  font-family: DB Adman X Bd;
+  font-size: 3em;
+  color: #ffffff;
+  -webkit-text-stroke: 3px #152744;
+}

@@ -1,0 +1,22 @@
+.preload-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  z-index: 9;
+  overflow: hidden;
+  transition: all .8s ease-in-out;
+  &.active {
+    right: 0;
+  }
+}
+
+// .container, .traffic-container {
+//   text-align: right;
+// }

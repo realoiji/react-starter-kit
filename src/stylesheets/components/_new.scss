@@ -1,0 +1,45 @@
+body {
+  background-color: #ebebeb;
+}
+$blue: #4285f4;
+.new-container {
+  padding: 24px 30px 30px;
+  position: absolute;
+  top: 0;
+  left: 980px;
+  right: 0;
+  h1 span {
+    color: $blue;
+  }
+  .new-item {
+    border-radius: 4px;
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-areas: 'title time' 'description description';
+    grid-template-columns: calc(100% - 60px) 60px;
+    .new-title {
+      grid-area: title;
+      font-family: 'DB Adman X';
+      font-size: 30px;
+      font-weight: bold;
+    }
+    .new-time {
+      grid-area: time;
+      font-family: 'Montserrat';
+      font-size: 18px;
+      font-weight: bold;
+      color: $blue;
+      text-align: right;
+    }
+    .new-description {
+      grid-area: description;
+      font-family: 'DB Adman X';
+      font-size: 24px;
+      font-style: italic;
+      color: #5a5a5a;
+    }
+  }
+}
