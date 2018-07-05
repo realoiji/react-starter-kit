@@ -9,9 +9,6 @@ class Navigation extends React.Component {
         <li>
           <NavLink exact to="/" activeStyle={{ color: 'red' }}>Home</NavLink>
         </li>
-        <li>
-          <NavLink exact to="/traffic" activeStyle={{ color: 'red' }}>Traffic</NavLink>
-        </li>
       </ul>
     );
   }

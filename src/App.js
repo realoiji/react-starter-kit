@@ -1,16 +1,13 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 // import { AnimatedSwitch } from 'react-router-transition';
-import { Home, Traffic } from './pages';
+import { Home } from './pages';
 import { Navigation } from './components';
 import WrapRoute from './WrapRoute';
 
 const routePath = [
   {
     path: '/', component: Home
-  },
-  {
-    path: '/traffic', component: Traffic
   }
 ];
 
